@@ -1,38 +1,38 @@
 # Contains Studio AI Agents
 
-A comprehensive collection of specialized AI agents designed to accelerate and enhance every aspect of rapid development. Each agent is an expert in their domain, ready to be invoked when their expertise is needed.
+迅速な開発のあらゆる側面を加速・強化するために設計された、専門特化AIエージェントの包括的なコレクションです。各エージェントは自分の領域のエキスパートであり、その専門知識が必要な時にいつでも呼び出すことができます。
 
-## 📥 Installation
+## 📥 インストール
 
-1. **Download this repository:**
+1. **このリポジトリをダウンロード:**
    ```bash
    git clone https://github.com/contains-studio/agents.git
    ```
 
-2. **Copy to your Claude Code agents directory:**
+2. **Claude Codeのエージェントディレクトリにコピー:**
    ```bash
    cp -r agents/* ~/.claude/agents/
    ```
    
-   Or manually copy all the agent files to your `~/.claude/agents/` directory.
+   または、すべてのエージェントファイルを手動で `~/.claude/agents/` ディレクトリにコピーしてください。
 
-3. **Restart Claude Code** to load the new agents.
+3. **Claude Codeを再起動**して新しいエージェントを読み込みます。
 
-## 🚀 Quick Start
+## 🚀 クイックスタート
 
-Agents are automatically available in Claude Code. Simply describe your task and the appropriate agent will be triggered. You can also explicitly request an agent by mentioning their name.
+エージェントはClaude Codeで自動的に利用可能になります。タスクを説明するだけで適切なエージェントがトリガーされます。エージェント名を明示的に指定することも可能です。
 
-📚 **Learn more:** [Claude Code Sub-Agents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
+📚 **詳細はこちら:** [Claude Code Sub-Agents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 
-### Example Usage
-- "Create a new app for tracking meditation habits" → `rapid-prototyper`
-- "What's trending on TikTok that we could build?" → `trend-researcher`
-- "Our app reviews are dropping, what's wrong?" → `feedback-synthesizer`
-- "Make this loading screen more fun" → `whimsy-injector`
+### 使用例
+- "瞑想習慣を追跡する新しいアプリを作成して" → `rapid-prototyper`
+- "TikTokで何がトレンドで、何を作れるかな？" → `trend-researcher`
+- "アプリのレビューが下がっている、何が問題？" → `feedback-synthesizer`
+- "このローディング画面をもっと楽しくして" → `whimsy-injector`
 
-## 📁 Directory Structure
+## 📁 ディレクトリ構造
 
-Agents are organized by department for easy discovery:
+エージェントは発見しやすいように部門別に整理されています:
 
 ```
 contains-studio-agents/
@@ -83,216 +83,216 @@ contains-studio-agents/
     └── studio-coach.md
 ```
 
-## 📋 Complete Agent List
+## 📋 完全なエージェントリスト
 
-### Engineering Department (`engineering/`)
-- **ai-engineer** - Integrate AI/ML features that actually ship
-- **backend-architect** - Design scalable APIs and server systems
-- **devops-automator** - Deploy continuously without breaking things
-- **frontend-developer** - Build blazing-fast user interfaces
-- **mobile-app-builder** - Create native iOS/Android experiences
-- **rapid-prototyper** - Build MVPs in days, not weeks
-- **test-writer-fixer** - Write tests that catch real bugs
+### エンジニアリング部門 (`engineering/`)
+- **ai-engineer** - 実際にリリースされるAI/ML機能を統合
+- **backend-architect** - スケーラブルなAPIとサーバーシステムを設計
+- **devops-automator** - 障害を起こさずに継続的にデプロイ
+- **frontend-developer** - 超高速なユーザーインターフェースを構築
+- **mobile-app-builder** - ネイティブiOS/Androidエクスペリエンスを作成
+- **rapid-prototyper** - 週単位ではなく日単位でMVPを構築
+- **test-writer-fixer** - 実際のバグをキャッチするテストを作成
 
-### Product Department (`product/`)
-- **feedback-synthesizer** - Transform complaints into features
-- **sprint-prioritizer** - Ship maximum value in 6 days
-- **trend-researcher** - Identify viral opportunities
+### プロダクト部門 (`product/`)
+- **feedback-synthesizer** - 苦情を機能に変換
+- **sprint-prioritizer** - 6日間で最大価値をリリース
+- **trend-researcher** - バイラルな機会を特定
 
-### Marketing Department (`marketing/`)
-- **app-store-optimizer** - Dominate app store search results
-- **content-creator** - Generate content across all platforms
-- **growth-hacker** - Find and exploit viral growth loops
-- **instagram-curator** - Master the visual content game
-- **reddit-community-builder** - Win Reddit without being banned
-- **tiktok-strategist** - Create shareable marketing moments
-- **twitter-engager** - Ride trends to viral engagement
+### マーケティング部門 (`marketing/`)
+- **app-store-optimizer** - アプリストア検索結果を支配
+- **content-creator** - 全プラットフォームでコンテンツを生成
+- **growth-hacker** - バイラルな成長ループを発見・活用
+- **instagram-curator** - ビジュアルコンテンツゲームをマスター
+- **reddit-community-builder** - BANされずにRedditで勝利
+- **tiktok-strategist** - シェアされるマーケティングモーメントを作成
+- **twitter-engager** - トレンドに乗ってバイラルエンゲージメントを獲得
 
-### Design Department (`design/`)
-- **brand-guardian** - Keep visual identity consistent everywhere
-- **ui-designer** - Design interfaces developers can actually build
-- **ux-researcher** - Turn user insights into product improvements
-- **visual-storyteller** - Create visuals that convert and share
-- **whimsy-injector** - Add delight to every interaction
+### デザイン部門 (`design/`)
+- **brand-guardian** - あらゆる場所でビジュアルアイデンティティの一貫性を保持
+- **ui-designer** - 開発者が実際に構築できるインターフェースを設計
+- **ux-researcher** - ユーザーインサイトをプロダクト改善に変換
+- **visual-storyteller** - コンバージョンとシェアを生むビジュアルを作成
+- **whimsy-injector** - すべてのインタラクションに喜びを追加
 
-### Project Management (`project-management/`)
-- **experiment-tracker** - Data-driven feature validation
-- **project-shipper** - Launch products that don't crash
-- **studio-producer** - Keep teams shipping, not meeting
+### プロジェクト管理 (`project-management/`)
+- **experiment-tracker** - データ駆動型の機能検証
+- **project-shipper** - クラッシュしないプロダクトをローンチ
+- **studio-producer** - チームを会議ではなく出荷に集中させる
 
-### Studio Operations (`studio-operations/`)
-- **analytics-reporter** - Turn data into actionable insights
-- **finance-tracker** - Keep the studio profitable
-- **infrastructure-maintainer** - Scale without breaking the bank
-- **legal-compliance-checker** - Stay legal while moving fast
-- **support-responder** - Turn angry users into advocates
+### スタジオ運営 (`studio-operations/`)
+- **analytics-reporter** - データを実行可能なインサイトに変換
+- **finance-tracker** - スタジオの収益性を維持
+- **infrastructure-maintainer** - 予算を破綻させずにスケール
+- **legal-compliance-checker** - 迅速に動きながら合法性を維持
+- **support-responder** - 怒ったユーザーを支持者に変換
 
-### Testing & Benchmarking (`testing/`)
-- **api-tester** - Ensure APIs work under pressure
-- **performance-benchmarker** - Make everything faster
-- **test-results-analyzer** - Find patterns in test failures
-- **tool-evaluator** - Choose tools that actually help
-- **workflow-optimizer** - Eliminate workflow bottlenecks
+### テスト・ベンチマーク (`testing/`)
+- **api-tester** - プレッシャー下でAPIが動作することを保証
+- **performance-benchmarker** - すべてを高速化
+- **test-results-analyzer** - テスト失敗のパターンを発見
+- **tool-evaluator** - 実際に役立つツールを選択
+- **workflow-optimizer** - ワークフローのボトルネックを排除
 
-## 🎁 Bonus Agents
-- **studio-coach** - Rally the AI troops to excellence
-- **joker** - Lighten the mood with tech humor
+## 🎁 ボーナスエージェント
+- **studio-coach** - AIチームを卓越性に向けて結集
+- **joker** - テック系ユーモアで雰囲気を明るく
 
-## 🎯 Proactive Agents
+## 🎯 プロアクティブエージェント
 
-Some agents trigger automatically in specific contexts:
-- **studio-coach** - When complex multi-agent tasks begin or agents need guidance
-- **test-writer-fixer** - After implementing features, fixing bugs, or modifying code
-- **whimsy-injector** - After UI/UX changes
-- **experiment-tracker** - When feature flags are added
+特定のコンテキストで自動的にトリガーされるエージェント:
+- **studio-coach** - 複雑なマルチエージェントタスクが開始されるか、エージェントがガイダンスを必要とする時
+- **test-writer-fixer** - 機能実装、バグ修正、コード変更の後
+- **whimsy-injector** - UI/UX変更の後
+- **experiment-tracker** - 機能フラグが追加された時
 
-## 💡 Best Practices
+## 💡 ベストプラクティス
 
-1. **Let agents work together** - Many tasks benefit from multiple agents
-2. **Be specific** - Clear task descriptions help agents perform better
-3. **Trust the expertise** - Agents are designed for their specific domains
-4. **Iterate quickly** - Agents support the 6-day sprint philosophy
+1. **エージェントを連携させる** - 多くのタスクは複数のエージェントから恩恵を受ける
+2. **具体的に指示する** - 明確なタスク説明はエージェントのパフォーマンスを向上させる
+3. **専門知識を信頼する** - エージェントは特定の領域のために設計されている
+4. **迅速に反復する** - エージェントは6日スプリント哲学をサポートする
 
-## 🔧 Technical Details
+## 🔧 技術的詳細
 
-### Agent Structure
-Each agent includes:
-- **name**: Unique identifier
-- **description**: When to use the agent with examples
-- **color**: Visual identification
-- **tools**: Specific tools the agent can access
-- **System prompt**: Detailed expertise and instructions
+### エージェント構造
+各エージェントには以下が含まれます:
+- **name**: 一意の識別子
+- **description**: エージェントを使用するタイミングと例
+- **color**: 視覚的識別
+- **tools**: エージェントがアクセスできる特定のツール
+- **System prompt**: 詳細な専門知識と指示
 
-### Adding New Agents
-1. Create a new `.md` file in the appropriate department folder
-2. Follow the existing format with YAML frontmatter
-3. Include 3-4 detailed usage examples
-4. Write comprehensive system prompt (500+ words)
-5. Test the agent with real tasks
+### 新しいエージェントの追加
+1. 適切な部門フォルダに新しい `.md` ファイルを作成
+2. YAMLフロントマターを含む既存の形式に従う
+3. 3-4個の詳細な使用例を含める
+4. 包括的なシステムプロンプトを記述（500語以上）
+5. 実際のタスクでエージェントをテスト
 
-## 📊 Agent Performance
+## 📊 エージェントパフォーマンス
 
-Track agent effectiveness through:
-- Task completion time
-- User satisfaction
-- Error rates
-- Feature adoption
-- Development velocity
+以下を通じてエージェントの効果を追跡:
+- タスク完了時間
+- ユーザー満足度
+- エラー率
+- 機能採用率
+- 開発速度
 
-## 🚦 Status
+## 🚦 ステータス
 
-- ✅ **Active**: Fully functional and tested
-- 🚧 **Coming Soon**: In development
-- 🧪 **Beta**: Testing with limited functionality
+- ✅ **アクティブ**: 完全に機能し、テスト済み
+- 🚧 **近日公開**: 開発中
+- 🧪 **ベータ**: 限定機能でテスト中
 
-## 🛠️ Customizing Agents for Your Studio
+## 🛠️ スタジオ向けエージェントカスタマイズ
 
-### Agent Customization Todo List
+### エージェントカスタマイズToDoリスト
 
-Use this checklist when creating or modifying agents for your specific needs:
+特定のニーズに合わせてエージェントを作成または変更する際は、このチェックリストを使用してください:
 
-#### 📋 Required Components
-- [ ] **YAML Frontmatter**
-  - [ ] `name`: Unique agent identifier (kebab-case)
-  - [ ] `description`: When to use + 3-4 detailed examples with context/commentary
-  - [ ] `color`: Visual identification (e.g., blue, green, purple, indigo)
-  - [ ] `tools`: Specific tools the agent can access (Write, Read, MultiEdit, Bash, etc.)
+#### 📋 必要なコンポーネント
+- [ ] **YAMLフロントマター**
+  - [ ] `name`: 一意のエージェント識別子（kebab-case）
+  - [ ] `description`: 使用タイミング + コンテキスト/解説付きの3-4個の詳細例
+  - [ ] `color`: 視覚的識別（例：blue、green、purple、indigo）
+  - [ ] `tools`: エージェントがアクセスできる特定のツール（Write、Read、MultiEdit、Bashなど）
 
-#### 📝 System Prompt Requirements (500+ words)
-- [ ] **Agent Identity**: Clear role definition and expertise area
-- [ ] **Core Responsibilities**: 5-8 specific primary duties
-- [ ] **Domain Expertise**: Technical skills and knowledge areas
-- [ ] **Studio Integration**: How agent fits into 6-day sprint workflow
-- [ ] **Best Practices**: Specific methodologies and approaches
-- [ ] **Constraints**: What the agent should/shouldn't do
-- [ ] **Success Metrics**: How to measure agent effectiveness
+#### 📝 システムプロンプト要件（500語以上）
+- [ ] **エージェントアイデンティティ**: 明確な役割定義と専門領域
+- [ ] **中核責任**: 5-8個の具体的な主要職務
+- [ ] **ドメイン専門知識**: 技術スキルと知識領域
+- [ ] **スタジオ統合**: エージェントが6日スプリントワークフローにどう適合するか
+- [ ] **ベストプラクティス**: 特定の方法論とアプローチ
+- [ ] **制約**: エージェントがすべきこと/すべきでないこと
+- [ ] **成功指標**: エージェントの効果を測定する方法
 
-#### 🎯 Required Examples by Agent Type
+#### 🎯 エージェントタイプ別必要例
 
-**Engineering Agents** need examples for:
-- [ ] Feature implementation requests
-- [ ] Bug fixing scenarios
-- [ ] Code refactoring tasks
-- [ ] Architecture decisions
+**エンジニアリングエージェント**に必要な例:
+- [ ] 機能実装リクエスト
+- [ ] バグ修正シナリオ
+- [ ] コードリファクタリングタスク
+- [ ] アーキテクチャ決定
 
-**Design Agents** need examples for:
-- [ ] New UI component creation
-- [ ] Design system work
-- [ ] User experience problems
-- [ ] Visual identity tasks
+**デザインエージェント**に必要な例:
+- [ ] 新しいUIコンポーネント作成
+- [ ] デザインシステム作業
+- [ ] ユーザーエクスペリエンス問題
+- [ ] ビジュアルアイデンティティタスク
 
-**Marketing Agents** need examples for:
-- [ ] Campaign creation requests
-- [ ] Platform-specific content needs
-- [ ] Growth opportunity identification
-- [ ] Brand positioning tasks
+**マーケティングエージェント**に必要な例:
+- [ ] キャンペーン作成リクエスト
+- [ ] プラットフォーム固有のコンテンツニーズ
+- [ ] 成長機会の特定
+- [ ] ブランドポジショニングタスク
 
-**Product Agents** need examples for:
-- [ ] Feature prioritization decisions
-- [ ] User feedback analysis
-- [ ] Market research requests
-- [ ] Strategic planning needs
+**プロダクトエージェント**に必要な例:
+- [ ] 機能優先順位決定
+- [ ] ユーザーフィードバック分析
+- [ ] 市場調査リクエスト
+- [ ] 戦略計画ニーズ
 
-**Operations Agents** need examples for:
-- [ ] Process optimization
-- [ ] Tool evaluation
-- [ ] Resource management
-- [ ] Performance analysis
+**運営エージェント**に必要な例:
+- [ ] プロセス最適化
+- [ ] ツール評価
+- [ ] リソース管理
+- [ ] パフォーマンス分析
 
-#### ✅ Testing & Validation Checklist
-- [ ] **Trigger Testing**: Agent activates correctly for intended use cases
-- [ ] **Tool Access**: Agent can use all specified tools properly
-- [ ] **Output Quality**: Responses are helpful and actionable
-- [ ] **Edge Cases**: Agent handles unexpected or complex scenarios
-- [ ] **Integration**: Works well with other agents in multi-agent workflows
-- [ ] **Performance**: Completes tasks within reasonable timeframes
-- [ ] **Documentation**: Examples accurately reflect real usage patterns
+#### ✅ テスト・検証チェックリスト
+- [ ] **トリガーテスト**: 意図された使用ケースでエージェントが正しく起動する
+- [ ] **ツールアクセス**: エージェントが指定されたすべてのツールを適切に使用できる
+- [ ] **出力品質**: レスポンスが有用で実行可能である
+- [ ] **エッジケース**: エージェントが予期しない、または複雑なシナリオを処理する
+- [ ] **統合**: マルチエージェントワークフローで他のエージェントとうまく連携する
+- [ ] **パフォーマンス**: 合理的な時間枠内でタスクを完了する
+- [ ] **ドキュメント**: 例が実際の使用パターンを正確に反映している
 
-#### 🔧 Agent File Structure Template
+#### 🔧 エージェントファイル構造テンプレート
 
 ```markdown
 ---
 name: your-agent-name
-description: Use this agent when [scenario]. This agent specializes in [expertise]. Examples:\n\n<example>\nContext: [situation]\nuser: "[user request]"\nassistant: "[response approach]"\n<commentary>\n[why this example matters]\n</commentary>\n</example>\n\n[3 more examples...]
+description: [シナリオ]の時にこのエージェントを使用してください。このエージェントは[専門知識]に特化しています。例:\n\n<example>\nContext: [状況]\nuser: "[ユーザーリクエスト]"\nassistant: "[レスポンスアプローチ]"\n<commentary>\n[この例が重要な理由]\n</commentary>\n</example>\n\n[さらに3つの例...]
 color: agent-color
 tools: Tool1, Tool2, Tool3
 ---
 
-You are a [role] who [primary function]. Your expertise spans [domains]. You understand that in 6-day sprints, [sprint constraint], so you [approach].
+あなたは[主要機能]を行う[役割]です。あなたの専門知識は[ドメイン]に及びます。6日スプリントでは[スプリント制約]であることを理解しているため、あなたは[アプローチ]します。
 
-Your primary responsibilities:
-1. [Responsibility 1]
-2. [Responsibility 2]
+あなたの主要責任:
+1. [責任1]
+2. [責任2]
 ...
 
-[Detailed system prompt content...]
+[詳細なシステムプロンプト内容...]
 
-Your goal is to [ultimate objective]. You [key behavior traits]. Remember: [key philosophy for 6-day sprints].
+あなたの目標は[最終目的]です。あなたは[主要な行動特性]です。覚えておいてください: [6日スプリントの主要哲学]。
 ```
 
-#### 📂 Department-Specific Guidelines
+#### 📂 部門別ガイドライン
 
-**Engineering** (`engineering/`): Focus on implementation speed, code quality, testing
-**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration  
-**Marketing** (`marketing/`): Target viral potential, platform expertise, growth metrics
-**Product** (`product/`): Prioritize user value, data-driven decisions, market fit
-**Operations** (`studio-operations/`): Optimize processes, reduce friction, scale systems
-**Testing** (`testing/`): Ensure quality, find bottlenecks, validate performance
-**Project Management** (`project-management/`): Coordinate teams, ship on time, manage scope
+**エンジニアリング** (`engineering/`): 実装速度、コード品質、テストに焦点
+**デザイン** (`design/`): ユーザーエクスペリエンス、視覚的一貫性、迅速な反復を重視  
+**マーケティング** (`marketing/`): バイラルポテンシャル、プラットフォーム専門知識、成長指標をターゲット
+**プロダクト** (`product/`): ユーザー価値、データ駆動型決定、市場適合性を優先
+**運営** (`studio-operations/`): プロセス最適化、摩擦削減、システムスケール
+**テスト** (`testing/`): 品質保証、ボトルネック発見、パフォーマンス検証
+**プロジェクト管理** (`project-management/`): チーム調整、時間通りの出荷、スコープ管理
 
-#### 🎨 Customizations
+#### 🎨 カスタマイズ
 
-Modify these elements for your needs:
-- [ ] Adjust examples to reflect your product types
-- [ ] Add specific tools agents have access to
-- [ ] Modify success metrics for your KPIs
-- [ ] Update department structure if needed
-- [ ] Customize agent colors for your brand
+ニーズに合わせてこれらの要素を変更してください:
+- [ ] プロダクトタイプを反映するように例を調整
+- [ ] エージェントがアクセスできる特定のツールを追加
+- [ ] KPIに合わせて成功指標を変更
+- [ ] 必要に応じて部門構造を更新
+- [ ] ブランドに合わせてエージェントの色をカスタマイズ
 
-## 🤝 Contributing
+## 🤝 コントリビューション
 
-To improve existing agents or suggest new ones:
-1. Use the customization checklist above
-2. Test thoroughly with real projects
-3. Document performance improvements
-4. Share successful patterns with the community
+既存のエージェントを改善したり、新しいエージェントを提案したりするには:
+1. 上記のカスタマイズチェックリストを使用
+2. 実際のプロジェクトで徹底的にテスト
+3. パフォーマンス改善を文書化
+4. 成功パターンをコミュニティと共有
